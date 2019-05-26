@@ -11,7 +11,7 @@
             prefHeight="800.0"
             prefWidth="600.0"
             xmlns="http://javafx.com/javafx/8.0.121"
-            fx:controller="com.bettercoding.jfx.SampleController">
+            fx:controller="bookingpizza.controller.SampleController">
     <center>
         <WebView fx:id="myWebView"/>
     </center>

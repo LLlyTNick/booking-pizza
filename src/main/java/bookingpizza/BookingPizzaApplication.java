@@ -1,4 +1,4 @@
-package com.bettercoding.jfx;
+package bookingpizza;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class MyApp extends Application {
+public class BookingPizzaApplication extends Application {
     private ConfigurableApplicationContext springContext;
     private Parent rootNode;
     private FXMLLoader fxmlLoader;
@@ -21,7 +21,7 @@ public class MyApp extends Application {
 
     @Override
     public void init() throws Exception {
-        springContext = SpringApplication.run(MyApp.class);
+        springContext = SpringApplication.run(BookingPizzaApplication.class);
         fxmlLoader = new FXMLLoader();
         fxmlLoader.setControllerFactory(springContext::getBean);
     }

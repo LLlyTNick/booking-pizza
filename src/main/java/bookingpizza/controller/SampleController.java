@@ -1,4 +1,4 @@
-package com.bettercoding.jfx;
+package bookingpizza.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.web.WebView;
