@@ -28,7 +28,7 @@ public class BookingPizzaApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        fxmlLoader.setLocation(getClass().getResource("/fxml/sample.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("/fxml/authorization.fxml"));
         rootNode = fxmlLoader.load();
 
         primaryStage.setTitle("Hello World");

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerSampleController">
+   <children>
+      <AnchorPane fx:id="loginSingUpButton" layoutY="111.0" prefHeight="289.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="login_field" layoutX="242.0" layoutY="77.0" prefHeight="26.0" prefWidth="210.0" promptText="login" style="-fx-background-color: #fafafa; -fx-border-color: silver;" />
+            <PasswordField fx:id="password_field" layoutX="242.0" layoutY="145.0" prefHeight="26.0" prefWidth="210.0" promptText="password" style="-fx-background-color: #fafafa; -fx-border-color: silver;" />
+            <Label layoutX="245.0" layoutY="14.0" text="Authorization" textFill="#828181">
+               <font>
+                  <Font name="Times New Roman Italic" size="37.0" />
+               </font>
+            </Label>
+            <Button fx:id="authSinginButton" layoutX="270.0" layoutY="198.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #f39c63;" text="Sing In" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Italic" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="290.0" layoutY="32.0" text="Pizza" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Italic" size="55.0" />
+         </font>
+      </Label>
+      <Button layoutX="563.0" layoutY="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #f39c63;" text="Sing Up" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Italic" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
